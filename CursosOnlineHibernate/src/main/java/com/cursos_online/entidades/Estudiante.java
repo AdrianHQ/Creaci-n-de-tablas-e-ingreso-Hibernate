@@ -44,6 +44,11 @@ public class Estudiante {
     public String getApellido() {
         return apellido;
     }
+
+    @Override
+    public String toString() {
+        return "Estudiante{" + "id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + '}';
+    }
     
     
 }
